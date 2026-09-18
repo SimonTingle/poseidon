@@ -1,12 +1,11 @@
 {
-  "name": "fft-ocean-claude",
+  "name": "project",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "node canary.js && tsc",
+    "prepare": "node canary.js"
   },
   "dependencies": {
     "lil-gui": "^0.20.0",
